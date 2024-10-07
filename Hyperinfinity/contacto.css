@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #000000;
+    background-image: url(./plateado/platprodu.avif);
+    
+}
+.logoo{
+height: 100px;
+width: 100px;
+}
+
+header {
+    background-image: url(./dorado/heade.jpg);
+    background-size: 100%;
+    color:#fff;
+    padding: 20px 0;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000000; 
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+li:hover{
+  background-image: url(./dorado/heade.jpg);
+  height: 25px;
+}
+
+
+#contacto {
+    padding: 50px 20px;
+ background-image: url(./plateado/platprodu.avif);
+ background-size: 100%;
+    text-align: center;
+}
+
+#contacto h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.contacto-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.contact-form {
+    flex: 1 1 300px;
+    max-width: 500px;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #292929; 
+    outline: none;
+}
+
+.contact-form button {
+    display: block;
+    width: 100%;
+    background-color:#000000;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #464646;
+}
+
+.contacto-info {
+    flex: 1 1 300px;
+    max-width: 400px;
+    text-align: left;
+}
+
+.contacto-info p {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+.contacto-info strong {
+    color: #000000;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+.social-media a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-media img {
+    width: 24px;
+    height: 24px;
+    filter: brightness(0) invert(1);
+    transition: filter 0.3s ease;
+}
+
+.social-media a:hover img {
+    filter: brightness(0) invert(0.7);
+}
